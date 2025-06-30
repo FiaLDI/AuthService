@@ -67,3 +67,18 @@ AUTHSERVICE
 * HTTP-only cookies are used for refresh tokens
 * Access tokens have a limited lifetime
 * CSRF protection is implemented
+
+## EXAMPLE .env
+```
+ACCESS_TOKEN_SECRET=
+REFRESH_TOKEN_SECRET=
+AUTHPORT=
+DB_HOST=
+DB_USER=
+DB_NAME=
+DB_PASSWORD=
+DB_PORT=
+REDIS_HOST=
+REDIS_PORT=
+REDIS_PASSWORD=
+```
